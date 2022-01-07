@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    body {
+        background: #eee;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .formulario {
+        background: #fff;
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+        padding: 15px;
+        border-top: 4px solid #7267CB;
+        border-radius: 5px;
+        box-shadow: 0px 12px 22px -16px rgba(0,0,0,0.8);
+    }
+
+    .titulo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .formulario input[type="email"],input[type="text"],input[type="password"]{
+        width: 100%;
+        padding: 12px 20px;
+        border: none;
+        border-bottom: 2px solid #eee;
+        box-sizing: border-box;
+        margin-top: 12px;
+    }
+
+    .formulario input[type="submit"] {
+        width: 100%;
+        background: #98BAE7;
+        color: white;
+        padding: 12px 20px;
+        margin-top: 12px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+
+    .formulario input[type="submit"]:hover {
+        background: #B8E4F0;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #B8E4F0;
+    }
+</style>
+<body>
+    <form class="formulario">
+        <p class="titulo">Crear Cuenta</p>
+        <input type="email" placeholder="Correo" required>
+        <input type="text" placeholder="Nombre de Usuario" required>
+        <input type="password" placeholder="Contraseña" required>
+        <input type="submit" value="Registrarse">
+        <br><br>
+        <p>Ya tienes una cuenta? <a href="#">Iniciar Sesion</a></p>
+    </form>
+</body>
+</html>
